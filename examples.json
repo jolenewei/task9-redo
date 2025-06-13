@@ -1,0 +1,22 @@
+[
+  {
+    "query": "can_access(bolt, lab)",
+    "expected": "true"
+  },
+  {
+    "query": "can_access(zen, storage)",
+    "expected": "false"
+  },
+  {
+    "query": "restricted(vault)",
+    "expected": "true"
+  },
+  {
+    "query": "can_access(iris, vault)",
+    "expected": "false"
+  },
+  {
+    "query": "can_access(zen, vault)",
+    "expected": "true"
+  }
+]

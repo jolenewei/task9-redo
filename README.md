@@ -27,9 +27,6 @@ Stored in `rules.pl`, this Prolog file defines robot permissions for entering ce
 ```bash
 python main.py
 
-Or interactively:
-query = input("Enter a Prolog query: ")
-
 Sample input (from exmaples.json):
 {
   "query": "can_access(iris, storage)",
